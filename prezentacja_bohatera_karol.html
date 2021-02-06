@@ -25,7 +25,7 @@
         }
 
         h3 {
-            color: lawngreen;
+            color: rgb(0, 233, 76);
         }
 
         #standardowy {
@@ -39,6 +39,14 @@
         .skin {
             display: inline-block;
         }
+
+        .skin:first-child {
+            margin-right: 30px;
+        }
+
+        .skin img {
+            border-radius: 50px;
+        }
     </style>
 </head>
 
@@ -47,19 +55,21 @@
     <h2 class="fajnofajno">historia bohatera: </h2>
     <p>Urodzony 25 lat temu, już nie do końca młodzieniec.<br /> Walczył ze swym młodszym bratem Beniaminem o władze w
         ich pokoju.<br /> Ostatecznie konflikt dalej jest nie rostrzygnięty. </p>
-    <h2 class="fajnofajno">skórki</h2>
-    <div class="skin">
-        <img height="500" alt="karol standard" src="karol.jpg" />
-        <h3 id="standardowy">KAROL standardowy</h3>
+    <h2 class="fajnofajno">skórki:</h2>
+    <div>
+        <div class="skin">
+            <img height="500" alt="karol standard" src="karol.jpg" />
+            <h3 id="standardowy">KAROL standardowy</h3>
+        </div>
+        <div class="skin" calss="fajno">
+            <img height="500" alt="karol w samo południe" src="karol w samo południe.jpg" />
+            <h3>KAROL w samo południe</h3>
+        </div>
     </div>
-    <div class="skin">
-        <img height="500" alt="karol w samo południe" src="karol w samo południe.jpg" />
-        <h3>KAROL w samo południe</h3>
-    </div>
-    <h2>umiejętności
+    <h2>umiejętności:
         <!-- hello world -->
     </h2>
-    <ul id="skills-list" class="fajnofajno">
+    <ul id="skills-list">
         <li><b> bierne</b> - <i>kocia mama</i> : co trzeci autoatak wysyłą jednego kota do boju na 3 sec.<br />
             Koty posiadają życie zalżne od poziomu bohatera oraz obrażenia wyskalowne w ten sam sposób.
         </li>
