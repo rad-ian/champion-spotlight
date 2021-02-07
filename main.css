@@ -1,0 +1,43 @@
+body {
+    background-image: url(jaja.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgb(33, 48, 55);
+    color: white;
+}
+
+#skills-list {
+    text-align: left;
+    max-width: fit-content;
+    margin: 50px auto;
+}
+
+h2 {
+    color: lawngreen;
+}
+
+h3 {
+    color: rgb(0, 233, 76);
+}
+
+#standardowy {
+    color: rgb(0, 255, 76);
+}
+
+.fajnofajno {
+    color: lawngreen;
+}
+
+.skin {
+    display: inline-block;
+}
+
+.skin:first-child {
+    margin-right: 30px;
+}
+
+.skin img {
+    border-radius: 50px;
+}
