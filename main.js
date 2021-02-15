@@ -43,3 +43,13 @@ for (let i = 0; i < 20; i++) {
         console.log(i);
     }
 }
+const list = [1, 2, 3, 3, 4, 4, 4]
+let sum = 0
+console.log(list);
+console.log(list.length);
+for (let i = 0; i < list.length; i++) {
+    let wynik = list[i] + sum
+    sum = wynik
+    console.log({ i, listI: list[i], sum });
+}
+console.log({ sum });
