@@ -133,3 +133,51 @@ for (let i = 0; i < list5.length; i++) {
     }
 }
 console.log(`najwieksza jest ${obecnieNajwiększa}`);
+
+
+function przywitaj() {
+    console.log("cześć");
+}
+
+przywitaj()
+przywitaj()
+przywitaj()
+
+function powitaj(imie) {
+    console.log(`witam cie serdecznie ${imie}`);
+}
+let imie = "igidigi"
+powitaj(imie)
+imie = "jasiek"
+powitaj(imie)
+
+powitaj()
+powitaj("samuel")
+
+function multiply(składnikA, składnikB) {
+    return składnikA * składnikB
+}
+const c = 21
+const d = 3
+const wynikMnożenia = multiply(c, d)
+console.log(multiply(c, d));
+console.log(wynikMnożenia);
+
+function log(cosDoLogniecia) {
+    console.log(cosDoLogniecia)
+}
+log("cosDoLogniecia")
+function obliczSume(lista) {
+    let suma = 0
+    for (let i = 0; i < lista.length; i++) {
+        let wynik = lista[i] + suma
+        suma = wynik
+
+    }
+    return suma
+}
+console.log(list4);
+console.log(obliczSume(list4));
+
+console.log(list5);
+console.log(obliczSume(list5));
