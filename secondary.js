@@ -53,3 +53,27 @@ function pokaListeSkilli(event) {
 
 
 button.onclick = pokaListeSkilli
+
+
+
+const form = document.querySelector("#form")
+function onSubmit(event) {
+    console.log("oho ohoho get submitet");
+    const textarea = document.querySelector("#textarea")
+    console.log(textarea.value)
+    const comment = textarea.value
+    textarea.value = ""
+
+    const commentsContainer = document.querySelector("#comments-container")
+
+    const commentP = document.createElement("p")
+    commentP.innerText = comment
+
+    commentsContainer.appendChild(commentP)
+
+    event.preventDefault()
+}
+
+form.onsubmit = onSubmit
+
+

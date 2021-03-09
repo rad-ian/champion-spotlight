@@ -26,7 +26,7 @@ console.log(murczyx.age);
 murczyx.meowNTimes(14);
 murczyx.meowNTimes();
 
-console.log(wuzekSportowy);
+console.log(wuzekSportowy);  
 
 console.log(murczyx.age);
 console.log(wuzekSportowy.age);
